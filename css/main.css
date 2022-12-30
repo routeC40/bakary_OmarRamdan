@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-gray {
+    background-color: #F8F8F8;
+}
+
+.bg-dark {
+    background-color: #403D38;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #4A4742;
+    margin: 10px 0;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(../images/asset1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav .logo {
+    float: left;
+    padding-top: 15px;
+}
+
+.nav .logo img {
+    width: 180px;
+}
+
+.nav .nav-links {
+    float: right;
+    padding: 1px;
+    margin-top: 35px;
+}
+
+.nav .nav-links a {
+    color: rgb(223, 221, 221);
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.headline {
+    width: 40%;
+    margin: 2px auto;
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+
+.headline h1 {
+    font-size: 70px;
+
+}
+
+.headline h3 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.headline .us {
+    margin-top: 40px;
+}
+
+.headline .us button {
+    margin: 3px;
+    padding: 16px 24px;
+    color: white;
+    background-color: #8E7754;
+    border: none;
+    border-radius: 3px;
+}
+
+.headline .us .tranparent-btn {
+    background-color: transparent;
+    border: 1px white solid;
+}
+
+
+.section {
+    width: 90%;
+    margin: 15px auto 0px;
+    padding: 4% 0;
+}
+
+.section .image {
+    width: 45%;
+    float: left;
+}
+
+.section .image img {
+    width: 100%;
+}
+
+.section .article {
+    width: 40%;
+    float: left;
+    padding: 1.5% 6%;
+}
+
+.section .article h2 {
+    margin: 35px 0px;
+    font-size: 30px;
+    color: #303030;
+}
+
+.section .article p {
+    margin: 30px 0px;
+    font-size: 20px;
+    color: #303030;
+}
+
+.section .article .icons .list-item {
+    margin-bottom: 15px;
+}
+
+.section .article .icons img {
+    width: 18px;
+    padding: 8px;
+    border: 1px #8E7754 solid;
+    border-radius: 50%;
+    float: left;
+}
+
+.section .article .icons p {
+    float: left;
+    padding: 8px;
+    margin: 0;
+    font-size: 18px;
+    color: #303030;
+}
+
+.catalog {
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.catalog h2 {
+    font-size: 30px;
+    margin: 25px 0px;
+    color: #303030;
+}
+
+.catalog p {
+    font-size: 18px;
+    margin: 25px 0px;
+    color: #ffad65;
+}
+
+.catalog .box {
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+.catalog .box img {
+    width: 100%;
+}
+
+.catalog .box h3 {
+    margin: 25px 0px;
+    color: #303030;
+}
+
+.map-section .section .article {
+    width: 40%;
+    float: left;
+    padding: 1.5% 6% 1.5% 2%;
+}
+
+.map-section .section .article p {
+    font-size: 18px;
+    margin: 25px 0px;
+    color: #AE8E88;
+}
+
+.map-section .section .article .icons img {
+    background-color: #8E7754;
+}
+
+.map-section .section .article .icons p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.footer-menu {
+    width: 90%;
+    margin: 0px auto;
+    color: white;
+    padding: 60px 0px;
+}
+
+.footer-menu .menu-group {
+    width: 23%;
+    float: left;
+    margin: 0px 10px;
+}
+
+.footer-menu .menu-group h3 {
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.footer-menu .menu-group p {
+    margin: 10px 0px;
+    padding: 10px 20px 10px 0px;
+    color: #969696;
+}
+
+.footer-menu .menu-group li {
+    padding: 10px 20px 10px 0px;
+    color: #969696;
+}
+
+.footer-menu .menu-group .icons .list-item {
+    margin: 10px 0px 10px;
+    margin-bottom: 25px;
+}
+
+.footer-menu .menu-group .icons img {
+    width: 14px;
+    padding: 4px;
+    float: left;
+}
+
+.footer-menu .menu-group .icons p {
+    font-size: 14px;
+    padding: 4px;
+    margin: 0;
+    float: left;
+}
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 40px;
+    color: #AE8E88;
+}
+
+.footer img {
+    margin: 20px 0px;
+}
+
+
+.footer p {
+    margin: 20px;
+}
+
+.footer .icons {
+    margin: 15px 0px;
+}
+
+.footer .icons img {
+    background-color: #484540;
+    padding: 5px;
+    border-radius: 50%;
+}
